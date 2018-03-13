@@ -33,9 +33,9 @@ public class BdvSourceSubsetAsImagePlus {
 		/*
 		 * Details on the subset of the data we want to look at
 		 */
-		int sourceIndex = 0; 	// which source?
-		int t = 0;				// timepoint
-		int level = 0;  		// mipmap level
+		int sourceIndex = 0;  // which source?
+		int t = 0;            // timepoint
+		int level = 0;        // mipmap level
 		long[] mini = new long[]{  45,  50, 15 };
 		long[] maxi = new long[]{ 124, 149, 24 };
 		FinalInterval interval = new FinalInterval( mini, maxi );
